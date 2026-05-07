@@ -49,6 +49,6 @@ for game in video_game_sales:
 
 wii_sports_sales = video_game_sales[0][GLOBAL_SALES]
 
-top_game_share = (wii_sports_sales / total_global_sales) * 100
+top_game_share = (wii_sports_sales / total_global_sales) * 100 
 
 print(f"Wii Sports represents {top_game_share:.2f}% of total global sales across all 20 games.")
