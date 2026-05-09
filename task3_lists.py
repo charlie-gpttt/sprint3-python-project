@@ -11,6 +11,7 @@ video_game_sales = [
     [10, 'Duck Hunt', 'NES', 1984, 'Shooter', 'Nintendo', 26.93, 0.63, 0.28, 28.31],
     [11, 'Nintendogs', 'DS', 2005, 'Simulation', 'Nintendo', 9.07, 11.0, 1.93, 24.76],
     [12, 'Mario Kart DS', 'DS', 2005, 'Racing', 'Nintendo', 9.81, 7.57, 4.13, 23.42],
+    [13, 'Pokemon Gold/Silver', 'GB', 1999, 'Role-Playing', 'Nintendo', 9.0, 6.18, 7.2, 23.1],
     [14, 'Wii Fit', 'Wii', 2007, 'Sports', 'Nintendo', 8.94, 8.03, 3.6, 22.72],
     [15, 'Kinect Adventures!', 'X360', 2010, 'Misc', 'Microsoft', 14.97, 4.94, 0.24, 21.82],
     [16, 'Grand Theft Auto V', 'PS3', 2013, 'Action', 'Take-Two', 7.01, 9.27, 0.97, 21.4],
@@ -31,6 +32,7 @@ EU_SALES = 7
 JP_SALES = 8
 GLOBAL_SALES = 9
 
+# write your code here
 game_names = []
 
 for game in video_game_sales:
@@ -43,5 +45,4 @@ print(len(video_game_sales))
 
 dataset_info = (len(video_game_sales), 10, 'Video Game Sales')
 print(dataset_info)
-# A tuple is more appropriate than a list here because this metadata describes fixed facts about the dataset structure. 
-# Tuples are immutable, meaning their values cannot be accidentally modified, making them ideal for storing constant reference data.
+# A tuple is more appropriate than a list here because this metadata describes fixed facts about the dataset structure. Tuples are immutable, meaning their values cannot be accidentally modified, making them ideal for storing constant reference data.
